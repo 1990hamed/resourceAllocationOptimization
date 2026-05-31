@@ -1,7 +1,25 @@
 [project]
-name = "resourceallcationoptimizatin"
+name = "resourceallcationoptimization"
 version = "0.1.0"
-description = "Add your description here"
+description = "Hospital Resource Allocation Optimization using Grey Wolf Optimizer vs PSO"
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "matplotlib>=3.9",
+    "seaborn>=0.13",
+    "scipy>=1.14",
+    "jupyter>=1.1",
+    "nbformat>=5.10",
+    "ipykernel>=6.29",
+    "openpyxl>=3.1",
+]
+
+[tool.uv.build-backend]
+module-name = "rao"
+module-root = "src"
+
+[build-system]
+requires = ["uv_build>=0.4"]
+build-backend = "uv_build"
