@@ -63,6 +63,48 @@ data/                    # Raw and processed datasets
 reports/                 # Generated report notebooks and outputs
 ```
 
+## Git Conventions
+
+### Branch Naming
+
+Use `type/short-description` (kebab-case, lowercase):
+
+```
+feat/gwo-convergence-plot
+fix/pso-velocity-clamp
+chore/update-deps
+docs/readme-update
+refactor/objective-function
+```
+
+Types mirror conventional commit prefixes: `feat`, `fix`, `chore`, `docs`, `refactor`, `test`.
+
+### Commit Messages
+
+Use [Conventional Commits](https://www.conventionalcommits.org/):
+
+```
+<type>: <short imperative summary>
+```
+
+| Type | When to use |
+|---|---|
+| `feat` | New feature or capability |
+| `fix` | Bug fix |
+| `chore` | Maintenance, deps, tooling |
+| `docs` | Documentation only |
+| `refactor` | Code restructure, no behavior change |
+| `test` | Tests only |
+
+Examples:
+```
+feat: add GWO convergence plot
+fix: correct PSO velocity clamp
+chore: update numpy to 2.x
+docs: add pipeline step table to README
+refactor: extract objective function to separate module
+```
+
 ## Pipeline Steps
 
 | Step | Entry point | Description |
