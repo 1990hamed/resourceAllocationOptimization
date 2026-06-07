@@ -155,8 +155,8 @@ Five CSV files in `data/raw/`:
 
 ## Authors
 
-- **Tahereh Ariaee** — Thesis author
-- **Hamed Shahbazi** — Programming and pipeline development
+- **Tahereh Ariaee** — Thesis author ([armit.ariaee@gmail.com](mailto:armit.ariaee@gmail.com))
+- **Hamed Shahbazi** — Programming and pipeline development ([shahbazihamed1990@gmail.com](mailto:shahbazihamed1990@gmail.com))
 
 ## References
 
